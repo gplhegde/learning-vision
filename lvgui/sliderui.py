@@ -62,6 +62,8 @@ class SliderUI(BaseUI):
         '''
         '''
         n_sliders = len(params)
+        if(n_sliders == 0): return
+                    
         s_h = (0.2 - n_sliders * self.axes_sep) / n_sliders
         assert(s_h >= 0), 'Cannot fit sliders'
             

@@ -8,7 +8,7 @@ from scipy.misc import imread, imresize
 import argparse
 import numpy as np
 from lvgui import SliderUI
-from numpy import dtype
+
 
 def parse_args():    
     parser = argparse.ArgumentParser(description='Gamma correction demo')
